@@ -1,0 +1,24 @@
+{
+  "name": "testautomation-03-karljohankall_mohamedabouda_gitafrankus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johan-Kall/testautomation-03-karljohankall_mohamedabouda_gitafrankus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johan-Kall/testautomation-03-karljohankall_mohamedabouda_gitafrankus/issues"
+  },
+  "homepage": "https://github.com/Johan-Kall/testautomation-03-karljohankall_mohamedabouda_gitafrankus#readme",
+  "devDependencies": {
+    "cypress": "^7.2.0"
+  }
+}
