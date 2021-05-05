@@ -1,6 +1,8 @@
 /// <reference types="cypress" />
 
+
 import * as targets from '../targets/targets'
+
 
 describe('Assignment 03', function(){
     it('Login', function () {
@@ -14,6 +16,10 @@ describe('Assignment 03', function(){
         cy.get('.username').should("contain", "Welcome tester01!")
         cy.get('h2').should("contain", "Tester Hotel Overview")
 
+        cy.get('.blocks > :nth-child(1) > .btn').click()
+
+    cy.get('h2 > div').should("contain", "Rooms")
+
         cy.get('.user > .btn').click()
         cy.get('h2').should("contain", "Login")
     })
@@ -26,6 +32,8 @@ function performLogin(cy){
     cy.contains('Login')
 }
 
+
 module.exports = {
     performLogin
 }
+
