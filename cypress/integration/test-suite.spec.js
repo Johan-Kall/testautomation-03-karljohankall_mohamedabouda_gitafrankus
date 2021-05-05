@@ -1,5 +1,6 @@
 
-describe('Login Logout', function () {
+<<<<<<< HEAD
+describe('Login Logout Page', function () {
 
     it('Login', function () {
 
@@ -12,6 +13,10 @@ describe('Login Logout', function () {
         cy.get('.username').should("contain", "Welcome tester01!")
         cy.get('h2').should("contain", "Tester Hotel Overview")
 
+        cy.get('.blocks > :nth-child(1) > .btn').click()
+
+    cy.get('h2 > div').should("contain", "Rooms")
+
         cy.get('.user > .btn').click()
         cy.get('h2').should("contain", "Login")
 
@@ -19,5 +24,6 @@ describe('Login Logout', function () {
     })
 
 })
+
 
 
